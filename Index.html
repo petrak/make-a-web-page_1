@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>
+			Important Concepts
+		</title>
+	</head>
+	<body>
+	  <h1>Important Concepts</h1>
+	  <div class="lesson">
+	    <h2>Lesson 1: The Basics of the Web and HTML</h2>
+	    <div class="concept">
+	      <div class="concept-title">
+	        How the Web Works
+	      </div>
+	      <div class="concept-description">
+	        <p>
+	          Internet is the world largest computer network. <br>
+	          The basics of the web: <br> - <span class="italic">The web</span>: a bunch of computers that communicate with 
+	          each other <br> - <span class="italic">HTML</span>: main document type on the web: glues all types of documents together  <br> - <span class="italic">URLS</span>: how you refer to documents on the web <br> - <span class="italic">HTTP</span>: protocol that units the web <br> - <span class="italic">Web Applications</span>  <br> - <span class="italic">Servers</span>: computers that host the sites that make up the web <br> - <span class="italic">Browser</span>: a program that runs on computers to display sites found on the web <br> - <span class="italic">Web page</span>:a text document written in a language HTML. Web browsers read these documents, and then interpret and display them.
+	        </p>
+	        <p>
+	          When a person goes to a web page like 
+	          www.google.com, their computer sends a 
+	          <span class="italic">HTTP Request</span> to 
+	          a <span class="italic">server</span>. 
+	          The server finds the appropriate HTML document and sends 
+	          it back to the user's computer where a <span class="italic">
+	          web browser</span> interprets the page and displays it on 
+	          the user's screen.
+	        </p>
+	        <p>
+	        	More details: <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496">The basics of the web</a> 
+	        </p>
+	      </div>
+	    </div>
+	    <div class="concept">
+	      <div class="concept-title">
+	        HTML
+	      </div>
+	      <div class="concept-description">
+	        <p>
+	          HTML stands for <span class="italic">Hypertext Markup 
+	          Language.</span> HTML documents form the majority of the 
+	          content on the web.
+	        </p>
+	        <p>
+	          HTML documents contain: <br> -  <span class="italic">text 
+	          content</span> which describes "what you see" and 
+	          <br> - <span class="italic">markup</span> which describes 
+	          "how it looks". <br> - <span class="italic">references to other documents</span> (e.g. images + video) <br> - <span class="italic"> links</span> to other pages
+	         <p>
+	          More details: <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48724340">HTML intro</a>  
+	         </p>
+	      </div>
+	    </div>
+	    <div class="concept">
+	      <div class="concept-title">
+	        Tags and Elements
+	      </div>
+	      <div class="concept-description">
+	        <p>
+	          HTML documents are made of HTML 
+	          <span class="bold">elements</span>. When writing HTML, we 
+	          tell browsers the type of each element by using HTML 
+	          <span class="bold">tags</span>: <br> - Element is everything between  opening and closing tag <br> - Void tags are tags, which don't have closing tag. They don't have content. (e.g. img , br, ..) <br> - Inline tags vs block tags: inline tags for text, bloc tags are creating "invisible boxes" around the content.  <br> - Examples: a = anchor tag, p = paragraph tag, b = bold , em = italic .. <br> - Container elements: (e.g. Span , div ) do nothing but contain stuff inside of them. These elements can be used to create web pages with complex structures. <br> - Attirbutes: HTML elements can have atributtes. Attribute provides additional information about an element. The value of attribute "Class" is refered to also in CSS and helps to avoid repetition in programming the style.
+	        </p>
+	        <p>
+	          More details: <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48723444">HTML Tags and Elements</a> 
+	        </p>
+	      </div>
+	    </div>
+	    <div class="concept">
+	      <div class="concept-title">
+	        Why Computers are Stupid
+	      </div>
+	      <div class="concept-description">
+	        <p>
+	          Computers are stupid because they interpret 
+	          instructions literally. This makes them very 
+	          unforgiving since a small mistake by a 
+	          programmer can cause huge problems in a program. 
+	        </p>
+	        <p>
+	          Programmer doesn't need to know all details. He can always get details he doesn't know from a Google search. 
+	        </p>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="lesson">
+	    <h2>Lesson 2: Creating a Structured Document with HTML</h2>
+	    <div class="concept">
+	      <div class="concept-title">
+	        Developer Tools (in the Browser)
+	      </div>
+	      <div class="concept-description">
+	        <p>
+	          There is a Developer Tool in the Browser, that helps you develop the code: you can test the code, before making changes to your document...
+	        </p>
+	      </div>
+	    </div>
+	    <div class="concept">
+	      <div class="concept-title">
+	        The "tree-like structure" of HTML
+	      </div>
+	      <div class="concept-description">
+	        <p>
+	          The "tree-like structure" comes from the fact that HTML 
+	          elements can have other elements inside of them. You can 
+	          draw this relationship like a family tree. My mother 
+	          had multiple children. So did her mother, and so on...
+	        </p>
+	        <p>
+	          -	When programmers talk about the "DOM" they are talking  about the tree-like structure of a page. <br>
+			  -	DOM - Document Object Model - a cross-platform and language-independent convention for representing and interacting with objects in HTML (and other markup languages). The nodes of every document are organized in a tree structure, called the DOM tree.
+	        </p>
+	        <p>
+	          In a browser, this structure shows up as a series 
+	          of nested boxes. There are boxes inside of boxes 
+	          inside of boxes, and so on...
+	        </p>
+	      </div>
+	    </div>
+	    <div class="concept">
+	      <div class="concept-title">
+	        The relationship between indented HTML and boxes
+	      </div>
+	      <div class="concept-description">
+	        <p>
+	          When you read an HTML document as 
+	          <span class="italic">text</span>, you see a wave of 
+	          changing indentations going up and down the left side 
+	          of the document. The more indented an element is, the 
+	          more deeply nested its corresponding "box" is.
+	        </p>
+	      </div>
+	    </div>
+	    <div class="concept">
+	      <div class="concept-title">
+	        Text Editors (for programming)
+	      </div>
+	      <div class="concept-description">
+	        <p>
+	          When writing code, programmers use special text editors 
+	          (like Sublime Text for example). These editors make the 
+	          programmer's life easier. For example, some text editors 
+	          will automatically generate a closing HTML tag when you 
+	          write an opening tag.
+	        </p>
+	        <p>
+	          For small project scratchpad.io is a great tool.As your web page gets bigger, you'll want to use a program that you can keep on your computer like Sublime.
+	        </P>
+	        <p>
+	          Editors like Notepad, TextEdit are not recommended for writing computer code. 
+	        </P>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="lesson">
+	  	<!---*  od tu   --> 
+	    <h2>Lesson 3: Adding CSS Style to HTML sturcture</h2>
+	    <div class="concept">
+	      <div class="concept-title">
+	        CSS 
+	      </div>
+	      <div class="concept-description">
+	        <p>
+	          CSS Cascading Style Sheets - style sheet language used for describing the look and formatting of a document written in a markup language. <br>
+	          -	HTML and CSS are both "languages" <br>
+			  -	HTML controls the "structure" of a web page  <br>
+			  -	CSS controls the "style" of a page (how it looks).
+	        </p>
+	        <p>
+	          A style sheet consists of a list of rules. Each rule or rule-set consists of one or more selectors, and a declaration block.
+	        </p>
+	      </div>
+	    </div>
+	    <div class="concept">
+	      <div class="concept-title">
+	        How does CSS "control" HTML 
+	      </div>
+	      <div class="concept-description">
+			<p>
+	          Selectors are used to conect CSS style rule with HTML elements. CSS rule contains selector, property, value. Example: h2 {font-size: 20px;}
+	        </p>
+	        <p>
+	          Selectors may apply to: <br> - all elements of a specific type, e.g. the second level headers h2 <br> - elements specified by attribute (e..g. class) <br> - elements depending on how they are placed relative to others in the document tree (cascading rule) <br> - Cascading rule: Rather than write separate rules for each HTML element, global/parent rules can be used to style all nested/child elements. The rule defined last, applied to the element closest to the content, or that uses the most specific selector, "wins" 
+	        </p>
+	      </div>
+	    </div>
+	    <div class="concept">
+	      <div class="concept-title">
+	          How do I include CSS Styling in my web page 
+	      </div>
+	      <div class="concept-description">
+	        <p>
+	          There are three ways you can do this: <br> - Method 1: write CSS in the head  of your HTML: used for small projects <br> - Method 2: Link your HTML to a separate CSS file: it lets you stay more organized when working on larger projects (the link in HTML document to CSS sheet should be defined in head of HTML) <br> - Method 3: Write your style inline with your HTML: This is generally a very bad idea because it leads to lots of repeated code. 
+	        </p>
+	      </div>
+	    </div>
+	    <div class="concept">
+	      <div class="concept-title">
+	          The Box Model
+	      </div>
+	      <div class="concept-description">
+	        <p>
+	          There are four main points  about box sizing. <br>
+				1.	HTML elements are boxes and each box has 4 components: <br>    - margin: clears the area aroung the border, pushes other elements away
+				<br>    - border
+				<br>    - padding: clears the area around the content
+				<br>    - content <br>
+				2.	Because there are so many components to each box, it can often be hard to get the size of a box just right. There are two techniques you can use to help deal with sizing issues.<br>
+					-	Set sizes in terms of percents rather than pixels.<br>
+					-	Set the box-sizing attribute to border-box for every element.  <br>
+				3.	Different browsers work slightly differently. Sometimes this causes different browsers to display the same code different.
+	        </p>
+	        <p>
+	          Box positioning: <br>
+				-	Block elements (e.g. div) by default take up the entire width of a page  <br>
+				-   Adding the rule <span class="italic">display: flex</span> to the appropriate CSS will override the default bahavior and let the block elements appear next to each other
+	        </p>
+	      </div>
+	    </div>
+	    <div class="concept">
+	      <div class="concept-title">
+	          Webpages, Documents, and Structure
+	      </div>
+	      <div class="concept-description">
+	        <p>
+	          Steps of the process of developing the code for webpages: 
+	        </p>
+	          	<ol>
+	          		<li> Look for natural boxes </li>
+	          		<li> Look for repeating styles, semantic elements </li>
+	          		<li> Write html</li>
+	          		<li> Apply styles (from biggest to smallest)</li>
+	          		<li> Fix things</li>
+	          	</ol>
+	        <p>
+	           Steps of development cycle: code, review, refine
+	        </p>
+	        <p>
+	          Important: <br>
+	          It is very important that computer code is sturctured and that the code is not repeated. In my (our) example there is structure of:
+			</p>
+	          	<ol>
+	          		<li> header</li>
+	          		<li> body
+	          			<ul>
+	          				<li> Lesson (there are more lessons in html and only one style for lessons in CSS)
+	          					<ul>
+			          				<li> concept
+			          					<ul> 
+			          						<li> concept title</li>
+			          						<li> concept description
+			          							<ul>
+			          								<li> Paragraph</li>
+			          							</ul> </li>
+			          					</ul></li>
+			          			</ul></li>
+			          		<li> footer</li>
+			          	</ul></li>
+				</ol>
+	        <p>
+	        	In my example there are many Lessons in my HTML and only one style for Lesson in CSS. It is very important that the code is not repeated (e.g. it is not good to write style separately for each lesson in CSS). The benefit of avoiding repetiton is: 
+	        </p>
+				<ul>
+	        		<li> it is more easy to refine  the code</li>
+	        		<li> it is more easy to read the code</li>
+	        		<li> it is less code, transparent</li>
+	        		<li> it is easier to implement changes...</li>
+	        	</ul>
+	      </div>
+		  </div>
+	    </div>	
+	   <footer>
+			Copyright 2015 &copy;
+		</footer>
+	</body>
+</html>
