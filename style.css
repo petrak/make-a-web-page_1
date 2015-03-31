@@ -1,0 +1,79 @@
+* {
+   outline: 1px transparent !important;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+h1 {
+    text-align: center;
+    color: #294860;
+}
+
+/* change to a nicer font */
+body {
+    font-family: Helvetica;
+    background-color: rgb(68, 240, 201);
+}
+
+/* the border-radius attribute makes the corners rounded and the margin clears out space for the stuff inside the lesson divs. Try seeing what  happens when you comment out the rule that says
+
+    padding: 10px; 
+
+by changing it to
+
+    /* padding: 10px; */
+.lesson {
+    background-color: #EA1576;
+    border-radius: 20px;
+    color: orange;
+    padding: 10px;   
+}
+
+/* margins push other elements away */ 
+h2 {
+    margin: 10px;
+}
+
+.concept {
+    
+    margin-left: auto;
+    margin-right: auto;   
+    display: block;
+    background-color: #F9F799;
+    padding: 4px;
+    /*margin: 10px; */
+    margin-top: 10px;
+    border-radius: 12px;
+    color: black;
+    width: 80%;
+}
+
+.concept-title {
+    font-size: 20px;
+    margin: 8px;  
+    text-align: center;
+    color: #294860;
+    background-color: pink;
+    border-radius: 13px;
+}
+
+.concept-description {
+    font-weight: lighter;
+    margin: 6px;
+}
+
+.italic {
+    font-style: italic;
+    background-color: rgb(245, 250, 44);
+}
+
+.bold {
+    font-weight: bold;
+}
+footer {
+    margin: 10px;
+    text-align: center;
+}
